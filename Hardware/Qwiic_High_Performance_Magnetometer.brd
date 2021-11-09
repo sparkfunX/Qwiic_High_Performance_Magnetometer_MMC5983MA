@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -20,34 +20,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -5949,31 +5949,31 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO2" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="3.048" y="7.62" smashed="yes" rot="MR0"/>
 <element name="U$23" library="output" package="#SPI#9" value="" x="20.32" y="16.002" smashed="yes" rot="MR0"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="2.921" y="7.62" smashed="yes"/>
-<element name="J4" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="6.35" y="1.524" smashed="yes">
-<attribute name="NAME" x="5.08" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="5.08" y="-0.508" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J4" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="6.35" y="1.27" smashed="yes">
+<attribute name="NAME" x="5.08" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="5.08" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="U$2" library="output" package="#SCL#6" value="" x="12.7" y="23.749" smashed="yes" rot="R270"/>
 <element name="U$5" library="output" package="#SDA#5" value="" x="10.16" y="23.749" smashed="yes" rot="R270"/>
-<element name="U$6" library="output" package="#CIPO#11" value="" x="13.97" y="1.905" smashed="yes" rot="R270"/>
-<element name="U$9" library="output" package="#COPI#12" value="" x="11.43" y="1.905" smashed="yes" rot="R270"/>
-<element name="U$14" library="output" package="#SCK#13" value="" x="16.51" y="1.905" smashed="yes" rot="R270"/>
-<element name="U$15" library="output" package="##CS##10" value="" x="19.05" y="1.905" smashed="yes" rot="R270"/>
-<element name="U$18" library="output" package="#3#3V#0" value="" x="8.89" y="6.985" smashed="yes" rot="R270"/>
+<element name="U$6" library="output" package="#CIPO#11" value="" x="13.97" y="1.651" smashed="yes" rot="R270"/>
+<element name="U$9" library="output" package="#COPI#12" value="" x="11.43" y="1.651" smashed="yes" rot="R270"/>
+<element name="U$14" library="output" package="#SCK#13" value="" x="16.51" y="1.651" smashed="yes" rot="R270"/>
+<element name="U$15" library="output" package="##CS##10" value="" x="19.05" y="1.651" smashed="yes" rot="R270"/>
+<element name="U$18" library="output" package="#3#3V#0" value="" x="8.89" y="6.477" smashed="yes" rot="R270"/>
 <element name="U$19" library="output" package="Y16" value="" x="21.082" y="8.001" smashed="yes"/>
 <element name="U$20" library="output" package="X15" value="" x="24.384" y="6.096" smashed="yes"/>
 <element name="U$25" library="output" package="X15" value="" x="24.638" y="11.43" smashed="yes" rot="MR0"/>
 <element name="U$26" library="output" package="Y16" value="" x="22.098" y="14.478" smashed="yes" rot="MR0"/>
 <element name="U$27" library="output" package="Z17" value="" x="20.066" y="10.033" smashed="yes" rot="MR0"/>
-<element name="U$17" library="output" package="#GND#4" value="" x="6.35" y="6.35" smashed="yes" rot="R270"/>
+<element name="U$17" library="output" package="#GND#4" value="" x="6.35" y="6.096" smashed="yes" rot="R270"/>
 <element name="U$1" library="output" package="HIGH_PERFORMANCE11" value="" x="12.446" y="11.303" smashed="yes" rot="MR0"/>
 <element name="U$24" library="output" package="MAGNETOMETER12" value="" x="12.7" y="10.033" smashed="yes" rot="MR0"/>
-<element name="U$28" library="output" package="#GND#4" value="" x="6.35" y="6.35" smashed="yes" rot="MR270"/>
-<element name="U$29" library="output" package="#3#3V#0" value="" x="8.89" y="6.731" smashed="yes" rot="MR270"/>
-<element name="U$30" library="output" package="#COPI#12" value="" x="11.43" y="1.905" smashed="yes" rot="MR270"/>
-<element name="U$31" library="output" package="#CIPO#11" value="" x="13.97" y="1.905" smashed="yes" rot="MR270"/>
-<element name="U$32" library="output" package="#SCK#13" value="" x="16.51" y="1.905" smashed="yes" rot="MR270"/>
-<element name="U$33" library="output" package="##CS##10" value="" x="19.05" y="1.905" smashed="yes" rot="MR270"/>
+<element name="U$28" library="output" package="#GND#4" value="" x="6.35" y="6.096" smashed="yes" rot="MR270"/>
+<element name="U$29" library="output" package="#3#3V#0" value="" x="8.89" y="6.477" smashed="yes" rot="MR270"/>
+<element name="U$30" library="output" package="#COPI#12" value="" x="11.43" y="1.651" smashed="yes" rot="MR270"/>
+<element name="U$31" library="output" package="#CIPO#11" value="" x="13.97" y="1.651" smashed="yes" rot="MR270"/>
+<element name="U$32" library="output" package="#SCK#13" value="" x="16.51" y="1.651" smashed="yes" rot="MR270"/>
+<element name="U$33" library="output" package="##CS##10" value="" x="19.05" y="1.651" smashed="yes" rot="MR270"/>
 <element name="U$36" library="SparkX" package="SPARKX-TINY" value="SPARKX-LOGO2" x="3.048" y="5.842" smashed="yes"/>
 <element name="U$37" library="SparkX" package="SPARKX-SMALL" value="SPARKX-LOGO3" x="12.954" y="13.97" smashed="yes" rot="MR0"/>
 <element name="U$34" library="output" package="MADE_IN_THE_USA20" value="" x="12.7" y="7.874" smashed="yes" rot="MR0"/>
@@ -6011,6 +6011,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="16.51" y="22.606" extent="1-16" drill="0.3048"/>
 <via x="20.32" y="8.89" extent="1-16" drill="0.3048"/>
 <via x="21.336" y="8.89" extent="1-16" drill="0.3048"/>
+<via x="17.78" y="3.81" extent="1-16" drill="0.3048"/>
+<via x="17.78" y="5.08" extent="1-16" drill="0.3048"/>
+<via x="17.78" y="2.54" extent="1-16" drill="0.3048"/>
+<via x="10.16" y="3.81" extent="1-16" drill="0.3048"/>
+<via x="10.16" y="5.08" extent="1-16" drill="0.3048"/>
+<via x="10.16" y="2.54" extent="1-16" drill="0.3048"/>
+<via x="7.62" y="3.81" extent="1-16" drill="0.3048"/>
+<via x="7.62" y="5.08" extent="1-16" drill="0.3048"/>
+<via x="7.62" y="2.54" extent="1-16" drill="0.3048"/>
+<via x="12.7" y="3.81" extent="1-16" drill="0.3048"/>
+<via x="12.7" y="5.08" extent="1-16" drill="0.3048"/>
+<via x="12.7" y="2.54" extent="1-16" drill="0.3048"/>
+<via x="15.24" y="3.81" extent="1-16" drill="0.3048"/>
+<via x="15.24" y="5.08" extent="1-16" drill="0.3048"/>
+<via x="15.24" y="2.54" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="3.3V">
 <contactref element="J1" pad="2"/>
@@ -6037,7 +6052,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="20.312" y1="12.192" x2="20.32" y2="12.2" width="0.508" layer="1"/>
 <wire x1="15.24" y1="24.13" x2="15.24" y2="15.748" width="0.508" layer="16"/>
 <wire x1="15.24" y1="15.748" x2="15.24" y2="13.208" width="0.508" layer="16"/>
-<wire x1="8.89" y1="1.524" x2="8.89" y2="13.208" width="0.508" layer="16"/>
+<wire x1="8.89" y1="1.27" x2="8.89" y2="13.208" width="0.508" layer="16"/>
 <wire x1="12.7" y1="17.78" x2="12.7" y2="13.208" width="0.508" layer="16"/>
 <wire x1="17.78" y1="16.93" x2="20.32" y2="16.93" width="0.2032" layer="1"/>
 <wire x1="17.78" y1="16.93" x2="17.78" y2="15.748" width="0.508" layer="1"/>
@@ -6138,7 +6153,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="20.312" y1="13.208" x2="20.32" y2="13.2" width="0.2032" layer="1"/>
 <wire x1="9.144" y1="12.2" x2="9.406" y2="11.938" width="0.2032" layer="1"/>
 <wire x1="9.406" y1="11.938" x2="10.16" y2="11.938" width="0.2032" layer="1"/>
-<wire x1="11.43" y1="1.524" x2="11.43" y2="9.144" width="0.2032" layer="16"/>
+<wire x1="11.43" y1="1.27" x2="11.43" y2="9.144" width="0.2032" layer="16"/>
 <wire x1="11.43" y1="9.144" x2="11.43" y2="10.668" width="0.2032" layer="16"/>
 <wire x1="11.43" y1="10.668" x2="11.938" y2="11.176" width="0.2032" layer="16"/>
 <wire x1="11.938" y1="11.176" x2="13.716" y2="11.176" width="0.2032" layer="16"/>
@@ -6155,7 +6170,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J4" pad="5"/>
 <wire x1="11.946" y1="11.202" x2="11.946" y2="8.128" width="0.2032" layer="1"/>
 <wire x1="16.51" y1="8.128" x2="11.946" y2="8.128" width="0.2032" layer="1"/>
-<wire x1="16.51" y1="1.524" x2="16.51" y2="8.128" width="0.2032" layer="1"/>
+<wire x1="16.51" y1="1.27" x2="16.51" y2="8.128" width="0.2032" layer="1"/>
 <wire x1="11.946" y1="8.128" x2="7.62" y2="8.128" width="0.2032" layer="1"/>
 <wire x1="7.62" y1="8.128" x2="7.112" y2="8.636" width="0.2032" layer="1"/>
 <wire x1="7.112" y1="8.636" x2="7.112" y2="10.922" width="0.2032" layer="1"/>
@@ -6181,7 +6196,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <signal name="CIPO">
 <contactref element="U1" pad="5"/>
 <contactref element="J4" pad="4"/>
-<wire x1="13.97" y1="7.112" x2="13.97" y2="1.524" width="0.2032" layer="16"/>
+<wire x1="13.97" y1="7.112" x2="13.97" y2="1.27" width="0.2032" layer="16"/>
 <wire x1="14.208" y1="11.954" x2="15.478" y2="11.954" width="0.2032" layer="1"/>
 <wire x1="15.478" y1="11.954" x2="15.748" y2="11.684" width="0.2032" layer="1"/>
 <via x="15.748" y="10.5664" extent="1-16" drill="0.3048"/>
@@ -6205,7 +6220,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="13.446" y1="9.16" x2="13.716" y2="8.89" width="0.2032" layer="1"/>
 <wire x1="19.05" y1="8.89" x2="13.716" y2="8.89" width="0.2032" layer="1"/>
 <via x="19.05" y="8.89" extent="1-16" drill="0.3048"/>
-<wire x1="19.05" y1="1.524" x2="19.05" y2="8.89" width="0.2032" layer="16"/>
+<wire x1="19.05" y1="1.27" x2="19.05" y2="8.89" width="0.2032" layer="16"/>
 <wire x1="19.7993" y1="17.78" x2="19.7993" y2="9.6393" width="0.2032" layer="16"/>
 <wire x1="19.7993" y1="9.6393" x2="19.05" y2="8.89" width="0.2032" layer="16"/>
 </signal>
@@ -6220,9 +6235,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <errors>
 <approved hash="19,16,ca90da4916ed30e5"/>
 <approved hash="19,16,8d8f5e0979e456fa"/>
-<approved hash="19,16,8e4c8c6daf23bd9a"/>
-<approved hash="19,16,1422425bae080481"/>
-<approved hash="5,16,4a61ec08edf5e3be"/>
 <approved hash="19,16,ae48902bc661449a"/>
 <approved hash="19,16,1e224c19ab4a0181"/>
 <approved hash="5,16,53626a718302e28f"/>
