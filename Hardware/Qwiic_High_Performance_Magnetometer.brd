@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -20,34 +20,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -6026,6 +6026,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="15.24" y="3.81" extent="1-16" drill="0.3048"/>
 <via x="15.24" y="5.08" extent="1-16" drill="0.3048"/>
 <via x="15.24" y="2.54" extent="1-16" drill="0.3048"/>
+<via x="16.51" y="20.066" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="3.3V">
 <contactref element="J1" pad="2"/>
@@ -6043,7 +6044,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="3.556" y="13.208" extent="1-16" drill="0.381"/>
 <wire x1="3.556" y1="13.208" x2="6.858" y2="13.208" width="0.508" layer="16"/>
 <wire x1="6.858" y1="13.208" x2="8.89" y2="13.208" width="0.508" layer="16"/>
-<wire x1="8.89" y1="13.208" x2="12.7" y2="13.208" width="0.508" layer="16"/>
+<wire x1="8.89" y1="13.208" x2="12.446" y2="13.208" width="0.508" layer="16"/>
+<wire x1="12.446" y1="13.208" x2="12.7" y2="13.208" width="0.508" layer="16"/>
 <wire x1="12.7" y1="13.208" x2="15.24" y2="13.208" width="0.508" layer="16"/>
 <wire x1="15.24" y1="13.208" x2="17.272" y2="13.208" width="0.508" layer="16"/>
 <wire x1="18.288" y1="12.192" x2="17.272" y2="13.208" width="0.508" layer="16"/>
@@ -6060,13 +6062,12 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="17.78" y1="15.748" x2="15.24" y2="15.748" width="0.508" layer="16"/>
 <wire x1="7.0993" y1="17.78" x2="7.0993" y2="13.4493" width="0.508" layer="16"/>
 <wire x1="7.0993" y1="13.4493" x2="6.858" y2="13.208" width="0.508" layer="16"/>
-<wire x1="12.446" y1="11.202" x2="12.446" y2="11.938" width="0.2032" layer="1"/>
-<wire x1="12.446" y1="11.938" x2="12.7" y2="12.192" width="0.2032" layer="1"/>
-<via x="12.7" y="12.192" extent="1-16" drill="0.3048"/>
-<wire x1="11.204" y1="13.464" x2="12.444" y2="13.464" width="0.2032" layer="1"/>
-<wire x1="12.444" y1="13.464" x2="12.7" y2="13.208" width="0.2032" layer="1"/>
-<wire x1="12.7" y1="13.208" x2="12.7" y2="12.192" width="0.2032" layer="1"/>
-<wire x1="12.7" y1="12.192" x2="12.7" y2="13.208" width="0.508" layer="16"/>
+<wire x1="12.446" y1="11.202" x2="12.446" y2="12.192" width="0.2032" layer="1"/>
+<via x="12.446" y="12.192" extent="1-16" drill="0.3048"/>
+<wire x1="12.446" y1="12.192" x2="12.446" y2="13.208" width="0.508" layer="16"/>
+<wire x1="11.204" y1="13.464" x2="11.682" y2="13.464" width="0.2032" layer="1"/>
+<wire x1="12.446" y1="12.7" x2="12.446" y2="12.192" width="0.2032" layer="1"/>
+<wire x1="11.682" y1="13.464" x2="12.446" y2="12.7" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="JP3" pad="1"/>
