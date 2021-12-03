@@ -11654,7 +11654,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="MMC5893MA">
+<symbol name="MMC5983MA">
 <description>&lt;H3&gt;High performance magnetic sensor&lt;/H3&gt;
 
 ±8 Gauss, High Performance 3-axis Magnetic Sensor</description>
@@ -11677,12 +11677,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MMC5893MA" prefix="U">
+<deviceset name="MMC5983MA" prefix="U">
 <description>&lt;h3&gt;High Performance 3-axis Magnetic Sensor&lt;/h3&gt;
 
 The MMC5983MA is an AEC-Q100 qualified complete 3-axis magnetic sensor with on-chip signal processing and integrated I2C/SPI bus suitable for use in automotive applications. The device can be connected directly to a microprocessor, eliminating the need for A/D converters or timing resources. It can measure magnetic fields within the full scale range of ±8 Gauss (G), with 0.25mG/0.0625mG per LSB resolution at 16bits/18bits operation mode and 0.4 mG total RMS noise level, enabling heading accuracy of ±0.5° in electronic compass applications.</description>
 <gates>
-<gate name="G$1" symbol="MMC5893MA" x="0" y="0"/>
+<gate name="G$1" symbol="MMC5983MA" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_QFN16" package="LGA-16-3X3MM-4X4PINS">
@@ -13283,7 +13283,7 @@ The MMC5983MA is an AEC-Q100 qualified complete 3-axis magnetic sensor with on-c
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U1" library="SparkFun-Sensors" deviceset="MMC5893MA" device="_QFN16"/>
+<part name="U1" library="SparkFun-Sensors" deviceset="MMC5983MA" device="_QFN16"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
@@ -13311,7 +13311,7 @@ The MMC5983MA is an AEC-Q100 qualified complete 3-axis magnetic sensor with on-c
 <text x="116.84" y="167.64" size="2.54" layer="94" align="center">Power LED</text>
 <text x="38.1" y="88.9" size="2.54" layer="94" align="center">Power decoupling</text>
 <wire x1="0" y1="48.26" x2="0" y2="50.8" width="0.2032" layer="97" style="longdash"/>
-<text x="38.1" y="165.1" size="2.54" layer="94" align="center">MMC5893MA
+<text x="38.1" y="165.1" size="2.54" layer="94" align="center">MMC5983MA
 High performance magnetic sensor</text>
 <text x="38.1" y="115.57" size="1.27" layer="97" align="center">I2C slave address: 0x30</text>
 <wire x1="0" y1="99.06" x2="73.66" y2="99.06" width="0.2032" layer="97" style="longdash"/>

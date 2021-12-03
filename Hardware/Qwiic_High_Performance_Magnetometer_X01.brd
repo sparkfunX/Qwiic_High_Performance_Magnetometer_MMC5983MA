@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -6360,7 +6360,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="RES-07856" x="33.02" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="8.382" y="17.78" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="U1" library="SparkFun-Sensors" package="LGA-16-3X3MM-4X4PINS" value="MMC5893MA_QFN16" x="12.7" y="12.7" smashed="yes" rot="R180">
+<element name="U1" library="SparkFun-Sensors" package="LGA-16-3X3MM-4X4PINS" value="MMC5983MA_QFN16" x="12.7" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.335" y="9.525" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="IC-16314" x="12.7" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="13.335" y="13.97" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
