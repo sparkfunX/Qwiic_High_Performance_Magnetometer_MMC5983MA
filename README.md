@@ -25,9 +25,9 @@ An updated version of this product is available:
 
 *[SparkFun 9DoF IMU Breakout - ISM330DHCX, MMC5983MA (Qwiic) (SEN-19895)](https://www.sparkfun.com/products/19895)*
 
-[![SparkFun Micro Magnetometer - MMC5983MA (Qwiic)](https://cdn.sparkfun.com//assets/parts/1/9/6/5/3/19921_03.jpg)](https://www.sparkfun.com/products/199921)
+[![SparkFun Micro Magnetometer - MMC5983MA (Qwiic)](https://cdn.sparkfun.com//assets/parts/1/9/6/5/3/19921_03.jpg)](https://www.sparkfun.com/products/19921)
 
-*[SparkFun Micro Magnetometer - MMC5983MA (Qwiic) (SEN-19921)](https://www.sparkfun.com/products/199921)*
+*[SparkFun Micro Magnetometer - MMC5983MA (Qwiic) (SEN-19921)](https://www.sparkfun.com/products/19921)*
 
 ## Repository Contents
 
